@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: rgba(107, 76, 46, 0.176);
+}
+footer{
+    width: 100%;
+    position: absolute;
+    /* bottom: 0; */
+    background: linear-gradient(to right, rgb(92, 68, 52), rgba(130, 116, 105));
+    color: aliceblue;
+    padding: 100px 0 40px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+footer .row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+footer .row .col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+footer .row .col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+footer .row .col .logo{
+    margin-top: 30px;
+    width: 240px;
+    height: 90px;
+}
+footer .row .col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;   
+}
+footer .row .col .email{
+    width: fit-content;
+    border-bottom: 1px solid ;
+    margin: 20px 0;
+}
+footer .row .col ul li{
+    width: fit-content;
+    list-style: none;
+    margin-bottom: 12px;
+}
+footer .row .col ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+footer .row .col form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 50px;
+}
+footer .row .col form .fa-regular{
+    font-size: 18px;
+    margin-right: 10px;
+}
+footer .row .col form input{
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border: 0;
+    outline: 0;
+}
+::placeholder {
+    color: rgb(219, 219, 219);
+    opacity: 1;
+}
+footer .row .col form button{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    color:#fff;  
+    font-size: 16px;
+}
+footer .row .col .social .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    color:rgb(69, 38, 17);
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 10px auto;
+}
+.copyright{
+    text-align: center;
+    margin-bottom: 0;
+}
