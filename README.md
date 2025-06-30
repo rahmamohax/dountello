@@ -148,7 +148,12 @@ php -S localhost:8000
 Then access the website at `http://localhost:8000`
 
 ## 📸 Screenshots
-![image](https://github.com/user-attachments/assets/c7c299b6-091f-47fe-ba2c-ca9162584500)
+![image](https://github.com/user-attachments/assets/b27fb222-aa69-464c-8c52-bb5711a731ad)
+
+![image](https://github.com/user-attachments/assets/2d5254c1-d35b-45c6-a597-3e8ddd961b58)
+
+![image](https://github.com/user-attachments/assets/f4140ffd-6d73-4a6c-8d4c-bfaf2d6de498)
+
 
 
 
