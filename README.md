@@ -147,5 +147,9 @@ php -S localhost:8000
 
 Then access the website at `http://localhost:8000`
 
+## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/c7c299b6-091f-47fe-ba2c-ca9162584500)
+
+
 
 **Made with ❤️ for donut lovers everywhere!** 🍩✨ 
